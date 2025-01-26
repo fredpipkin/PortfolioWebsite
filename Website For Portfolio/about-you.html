@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <title>About Me</title>
+</head>
+<body>
+
+  <div class="frame">
+    <nav>
+      <h2>Menu</h2>
+      <a href="main.html">Home</a>
+      &nbsp;
+      <a href="about.html">About Me</a>
+      &nbsp;
+      <a href="about-you.html">About You</a>
+      &nbsp;
+      <a href="projects/projects.html">Projects</a>
+      &nbsp;
+      <a href="contact.html">Contact</a> 
+    </nav>
+
+    <div class="content">
+      <h1>About You... </h1>
+      <p>Name: ???</p>
+      <p>The top slider will allow you to control the size of your pixels. The second slider controls how many pixels change per frame whilst the third controls the frame rate. Finally the forth slider allows you add random movement to the pixels.</p>
+      <p>Peer into the mirror: witness the recursive cascade of past selves folding into the present, refracting spectral layers of light that warp and reprogram the psyche. </p>
+     
+      <div id="videoArt-holder">
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; Bobkin Studios @2024</p>
+    </footer>
+  </div>
+
+  <script src="js/p5.min.js"></script>
+  <script src="js/p5.sound.min.js"></script>
+  <script src="js/pixel_camera.js"></script>
+  <script>new p5(videoArt, "videoArt-holder")</script>
+</body>
+</html>
